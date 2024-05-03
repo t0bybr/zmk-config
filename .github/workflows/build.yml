@@ -23,7 +23,10 @@ jobs:
           - nice_nano_v2
           - nrfmicro_13
           - proton_c
+          - seeeduino_xiao_ble
         shield:
+          - 1984x_left
+          - 1984x_right
           - bfo9000_left
           - bfo9000_right
           - boardsource3x4
