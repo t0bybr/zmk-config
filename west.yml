@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: cdc-mkb 
+      url-base: https://github.com/cdc-mkb/zmk.git
+  projects:
+    - name: zmk
+      remote: cdc-mkb
+      revision: mouse-pim447
+      import: app/west.yml
+  self:
+    path: config
