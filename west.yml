@@ -6,6 +6,7 @@ manifest:
     - name: zmk
       remote: cdc-mkb
       revision: mouse-pim447
+      path: config/boards/shields/1984x/1984x.keymap
       import: app/west.yml
   self:
     path: config
